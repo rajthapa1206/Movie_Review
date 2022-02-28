@@ -35,21 +35,21 @@
             <div class="row">  
                 <div class="column productNumber">
                     <label for="productNumber">Product Number</label> <br>
-                    <input type="text" name="productNumber" id="productNumber" />
+                    <input type="text" name="productNumber" id="productNumber" required/>
                 </div>
                 <div class="column quantityInStock">
                     <label for="quantityInStock">Quantity In Stock</label> <br>
-                    <input type="text" name="quantityInStock" id="quantityInStock" placeholder="0" />
+                    <input type="text" name="quantityInStock" id="quantityInStock" placeholder="0" required/>
                 </div>
             </div>    
             <div class="row">
                 <div class="column name">
                     <label for="name">Name</label> <br>
-                    <input type="text" name="name" id="name" /> 
+                    <input type="text" name="name" id="name" required/> 
                 </div>
                 <div class="column supplier">
                     <label for="supplier">Supplier</label> <br>
-                    <select name="supplier" id="supplier">
+                    <select name="supplier" id="supplier" required>
                         <option value="none" selected disabled hidden>Select a supplier</option>
                         <option value="chippewa">Chippewa</option>
                         <option value="pringles">Pringles</option>
@@ -61,17 +61,17 @@
             <div class="row">
                 <div class="column unitPrice">
                     <label for="unitPrice">Unit Price</label> <br>
-                    <input type="text" name="unitPrice" id="unitPrice" placeholder="0.0" />
+                    <input type="text" name="unitPrice" id="unitPrice" placeholder="0.0" required/>
                 </div>           
                 <div class="column dateSupplied">
                     <label for="dateSupplied">Date supplied</label> <br>
-                    <input type="datetime" name="dateSupplied" id="dateSupplied" placeholder="yyyy-mm-dd" /> <br>
+                    <input type="datetime" name="dateSupplied" id="dateSupplied" placeholder="yyyy-mm-dd" required/> <br>
                     <p>Enter a valid Date.</p>
                 </div>    
             </div>    
             <div class="button">
                 <button type="reset" id="reset">Reset</button>            
-                <button type="button" id="cancel">Cancel</button>
+                <a href="webform2.html" type="button" id="cancel">Cancel</a>
                 <button type="submit" id="addProduct">Add Product</button>
             </div>
         </form>

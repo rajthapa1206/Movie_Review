@@ -12,7 +12,14 @@ footer{
 }
 form{
     height: 60%;
+    width: 85%;
     margin-left: 10%;
+}
+input{
+    height: 50px;
+}
+select{
+    height: 50px;
 }
 div.column{
     width: 50%;
@@ -41,7 +48,7 @@ button#reset{
     margin: 10px;
     padding: 10px;
 }
-button#cancel{
+a#cancel{
     border: 2px solid orange;
     border-radius: 5px;
     background-color: white;
@@ -76,7 +83,7 @@ p{
     color: gray;
 }
 button{
-    background-color: rgb(98, 100, 245);
+    background-color: rgb(33, 178, 235);
     font-family:'Lucida Sans', sans-serif;
     color: white;
     border: none;
@@ -84,7 +91,7 @@ button{
 }
 .navbar{
     position: relative;
-    background-color: rgba(0, 0, 255);
+    background-color: rgb(33, 178, 235);
     height: 50px; 
     color: white;
     font-size: large;
@@ -125,7 +132,7 @@ span.right{
     z-index: -1;
 }
 h2{
-    margin-left: 9%;
+    margin-left: 7%;
     margin-top: 2%;
 }
 col.left{
